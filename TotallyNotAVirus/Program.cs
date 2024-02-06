@@ -20,7 +20,7 @@ static void loopForever()
 
 static void runOnce()
 {
-    ChromeOptions chromeOptions = new ChromeOptions();
+    ChromeOptions chromeOptions = new ChromeOptions();//
 
     IWebDriver driver = new ChromeDriver(chromeOptions);
     driver.Navigate().GoToUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ");

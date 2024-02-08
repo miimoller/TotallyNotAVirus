@@ -22,7 +22,7 @@ static void loopForever()
 static void runOnce()
 {
     EdgeOptions edgeOptions = new EdgeOptions();
-    //ChromeOptions chromeOptions = new ChromeOptions();//
+    ChromeOptions chromeOptions = new ChromeOptions();//
 
     IWebDriver driver = new EdgeDriver(edgeOptions);
     driver.Navigate().GoToUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
